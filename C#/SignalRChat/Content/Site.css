@@ -1,0 +1,91 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 200px;
+    padding-right: 15px;
+    
+}
+
+footer {
+    padding-left: 35px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select {
+    max-width: 880px;
+}
+.column {
+  float: left;
+  padding: 10px;
+  height: 400px;
+}
+.right {
+  float: left;
+  width: 50%;
+ margin-top:8px;
+  border:5px;
+  overflow:scroll;
+  border: solid 1px black;
+}
+
+.left {
+  float: left;
+  width: 25%;
+
+  border-style:groove;
+  text-align:center;
+  margin-top:8px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-family: unset;
+    color: grey;
+
+}
+
+.chat{
+    text-align: left;
+    font-family:'Times New Roman';
+    font-weight:bold;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
