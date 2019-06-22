@@ -31,13 +31,13 @@ select {
  margin-top:8px;
   border:5px;
   overflow:scroll;
-  border: solid 1px black;
+  border: solid 2px grey;
 }
 
 .left {
   float: left;
   width: 25%;
-
+  background-color: lightsteelblue;
   border-style:groove;
   text-align:center;
   margin-top:8px;
@@ -47,7 +47,7 @@ select {
     text-align: center;
     font-weight: bold;
     font-family: unset;
-    color: grey;
+    color: midnightblue;
 
 }
 
